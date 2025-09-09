@@ -120,5 +120,61 @@
   </div>
 </div>
 
+<!-- new section -->
+<div id="modal" class="fixed inset-0 bg-black/40 hidden items-center justify-center p-4">
+  <div class="bg-white rounded-2xl max-w-2xl w-full overflow-hidden">
+    <div class="p-5 pb-3">
+      <h3 id="modal-title" class="text-xl md:text-2xl font-semibold"></h3>
+    </div>
+
+    <div class="px-5">
+      <div id="modal-img" class="h-48 md:h-64 w-full bg-gray-100 rounded-xl overflow-hidden ring-1 ring-slate-200"></div>
+    </div>
+
+    <div class="p-5">
+      <p class="mb-1">
+        <span class="font-semibold">Category:</span> 
+        <span id="modal-category"></span>
+      </p>
+      <p class="mb-1">
+        <span class="font-semibold">Price:</span> 
+        <span id="modal-price"></span>
+      </p>
+      <p class="mb-1">
+        <span class="font-semibold">Description:</span> 
+        <span id="modal-desc" class="text-slate-700 leading-relaxed"></span>
+      </p>
+
+      <div class="mt-5 text-right">
+        <button id="modal-close" class="px-4 py-2 rounded-lg bg-slate-200 hover:bg-slate-300">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- About the Campaign start -->
+<h1 class="text-center text-gray-800 text-2xl sm:text-3xl font-semibold leading-9 md:leading-10 pt-7">
+  About the Campaign
+</h1>
+
+<div class="w-full max-w-6xl mx-auto px-4 py-8 flex flex-col md:flex-row lg:items-center md:items-start gap-2 ">
+  <div class="w-full md:w-1/2 flex justify-center">
+    <img class="w-full max-w-[400px] h-auto rounded-[10px]" src="./assets/about.png" alt="About Green Earth"/>
+  </div>
+  <div class="w-full lg:w-[420px] md:w-1/2">
+    <p class="text-sm sm:text-base md:text-lg opacity-80 text-gray-800 leading-relaxed">
+      Green Earth is a global tree plantation initiative dedicated to fighting climate change. 
+      Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, 
+      you help restore forests, create habitats for wildlife, and combat global warming.
+    </p>
+    <ul class="mt-6 list-disc list-inside text-sm sm:text-base md:text-lg opacity-80 text-gray-800 space-y-1">
+      <li>Restoration of natural habitats</li>
+      <li>Improvement of air quality</li>
+      <li>Support for local communities</li>
+    </ul>
+  </div>
+</div>
+
 </body>
 </html>
