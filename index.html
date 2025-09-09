@@ -14,11 +14,46 @@
   </head>
 <body class="bg-[#F0FDF4 text-slate-800">
 
-
-
-
-
-
+  <!-- Navbar start -->
+<nav class="w-full h-4  bg-green-700 flex items-center justify-between px-4 md:px-12 p-14 lg:px-40 ">
   
+  <!-- Logo -->
+  <a href="#" class="text-white font-bold text-2xl">Green Earth</a>
+
+  <!-- Menus on screens -->
+  <div class="hidden md:flex flex-1 justify-center items-center gap-6">
+    <a href="#about" class="text-white hover:text-slate-600">About</a>
+    <a href="#gallery" class="text-white hover:text-slate-600">Gallery</a>
+    <a href="#plant" class="text-white hover:text-slate-600">Plant a Tree</a>
+  </div>
+
+  <!-- Right Side Button -->
+  <div class="hidden md:flex">
+    <button class="btn bg-[#FACC15] hover:bg-[#a59d7e] rounded-full border-none text-green-700 text-lg">
+              Plant a Tree
+            </button>
+  </div>
+
+  <!-- Hamburger Icon -->
+  <div class="md:hidden">
+    <button id="menu-btn" class="text-white focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Dropdown Menu -->
+<div id="menu" class="hidden md:hidden bg-green-600">
+  <a href="#about" class="block px-4 py-2 text-white hover:bg-green-700">About</a>
+  <a href="#gallery" class="block px-4 py-2 text-white hover:bg-green-700">Gallery</a>
+  <a href="#plant" class="block px-4 py-2 text-white hover:bg-green-700">Plant a Tree</a>
+  <button class="w-full text-left px-4 py-2 bg-yellow-400 hover:bg-yellow-500 text-green-900 font-semibold transition">
+    Plant a Tree
+  </button>
+</div>
+
+
 </body>
 </html>
