@@ -5,17 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green Earth|Landing</title>
     <!-- link to cdn for tailwind & daisy -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-<body class="bg-[#F0FDF4 text-slate-800">
+<body class="bg-[#F0FDF4] text-slate-800 overflow-x-hidden" >
 
   <!-- Navbar start -->
-<nav class="w-full h-4  bg-green-700 flex items-center justify-between px-4 md:px-12 p-14 lg:px-40 ">
+<nav class="w-full p-4 md:p-6 lg:p-8  bg-green-700 flex items-center justify-between px-4 md:px-12 lg:px-40 ">
   
   <!-- Logo -->
   <a href="#" class="text-white font-bold text-2xl">Green Earth</a>
@@ -55,24 +51,24 @@
 </div>
 
 <!-- hero section start -->
-<div class="w-full  md:h-96 relative bg-emerald-100 overflow-hidden">
-  <img class="hidden lg:block w-[546px] h-96 absolute left-0 top-0" src="./assets/hero-leaf1.png" />
-  <div class="relative md:absolute w-full sm:w-4/5 md:w-[627px] left-0 lg:left-[646px] top-0 md:top-[100px] mx-auto px-4 py-8 md:py-0 flex flex-col items-center gap-6">
+<div class=" w-full  h-auto md:h-96 relative mx-auto bg-emerald-100 overflow-hidden">
+  <img class="hidden lg:block w-[546px] h-78 absolute left-0 top-20" src="./assets/hero-leaf1.png" />
+  <div class="relative md:absolute  sm:w-4/5 bg-fuchsia-500 md:w-[627px] left-0 lg:left-[646px] top-0 md:top-[100px] px-4 py-8 md:py-0 flex flex-col items-center gap-6">
     <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center leading-snug md:leading-[60px]">
       Plant a Tree, Grow a Future
     </h1>
     <p class="text-sm sm:text-base md:text-lg lg:text-[17px] opacity-80 text-center">
       Join our mission to plant 1 million trees and make the Earth greener for future<br class="hidden md:block"/>generations.
     </p>
-    <div class="px-5 py-3 bg-yellow-400 rounded-full flex justify-center items-center">
-      <button class="text-green-700 text-sm md:text-base font-medium">Get Involved</button>
-    </div>
+
+      <button class="px-5 py-3 bg-yellow-400 rounded-full flex justify-center items-center text-green-700 text-sm md:text-base font-medium">Get Involved</button>
+
   </div>
-  <img class="hidden lg:block w-[546px] h-96 absolute right-0 bottom-0" src="./assets/hero-leaf2.png" />
+  <img class="hidden lg:block w-[546px] h-78 absolute right-0 top-5" src="./assets/hero-leaf2.png" />
 </div>
 
 <!-- start tress section -->
-<div class="w-full md:w-[1650px] mx-auto py-8 px-4">
+<div class="w-full max-w-[1650px] mx-auto py-8 px-4">
   <h1 class="text-3xl font-semibold text-center mb-6">Choose Your Trees</h1>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-6">
